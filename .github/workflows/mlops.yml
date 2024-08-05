@@ -22,7 +22,7 @@ jobs:
 
     - name: Lint code
       run: |
-        pylint M1/model.py /M1test_model.py
+        pylint M1/model.py M1/test_model.py
 
     - name: Run tests
       run: |
