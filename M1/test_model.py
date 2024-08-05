@@ -1,6 +1,7 @@
 # test_model.py
 import joblib
 import numpy as np
+import pytest
 
 model = joblib.load('model.pkl')
 
