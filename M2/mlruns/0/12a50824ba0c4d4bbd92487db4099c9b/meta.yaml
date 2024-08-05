@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GAURAV/MLOpsAssignment/pythonProject/M2/mlruns/0/12a50824ba0c4d4bbd92487db4099c9b/artifacts
+end_time: 1722845601427
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 12a50824ba0c4d4bbd92487db4099c9b
+run_name: intrigued-rook-202
+run_uuid: 12a50824ba0c4d4bbd92487db4099c9b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722845599500
+status: 3
+tags: []
+user_id: GAURAV

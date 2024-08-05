@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/GAURAV/MLOpsAssignment/pythonProject/M2/mlruns/0/a248a8fbe5be486595abb2949987b95f/artifacts
+end_time: 1722845789328
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a248a8fbe5be486595abb2949987b95f
+run_name: treasured-zebra-762
+run_uuid: a248a8fbe5be486595abb2949987b95f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722845787777
+status: 3
+tags: []
+user_id: GAURAV
