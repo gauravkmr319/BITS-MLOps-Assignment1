@@ -3,6 +3,7 @@ import joblib
 import numpy as np
 import pytest
 
+
 model = joblib.load('model.pkl')
 
 def test_model():
