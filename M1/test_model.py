@@ -6,6 +6,7 @@ import numpy as np
 import pytest
 
 path = Path(os.path.dirname(os.path.realpath(__file__)))
+print("here")
 print(path)
 model = joblib.load(f'{path}/test_res/model.pkl')
 
