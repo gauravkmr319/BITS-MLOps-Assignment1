@@ -1,7 +1,7 @@
 # model.py
+from pathlib import Path
 import numpy as np
 from sklearn.linear_model import LinearRegression
-from pathlib import Path
 import joblib
 
 # Sample Data
