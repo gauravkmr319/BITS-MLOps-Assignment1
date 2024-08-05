@@ -1,8 +1,8 @@
 # test_model.py
 import joblib
 import numpy as np
-import pytest
 from pathlib import Path
+import pytest
 
 path = Path(__file__).parent.parent
 print(path)
