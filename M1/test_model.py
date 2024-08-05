@@ -5,10 +5,10 @@ import joblib
 import numpy as np
 import pytest
 
-path = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
+PATH = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
 print("here")
-print(path)
-model = joblib.load(f'{path}/test_res/model.pkl')
+print(PATH)
+model = joblib.load(f'{PATH}/test_res/model.pkl')
 
 
 def test_model():

@@ -14,6 +14,6 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Save Model
-path = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
-print(f'{path}/test_res/model.pkl')
-joblib.dump(model, f'{path}/test_res/model.pkl')
+PATH = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
+print(f'{PATH}/test_res/model.pkl')
+joblib.dump(model, f'{PATH}/test_res/model.pkl')
