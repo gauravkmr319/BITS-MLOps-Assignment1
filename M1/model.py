@@ -2,7 +2,7 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import joblib
-from M1 import utils
+from pathlib import Path
 
 # Sample Data
 X = np.array([[1], [2], [3]])
@@ -13,5 +13,5 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Save Model
-path = utils.get_project_root()
-joblib.dump(model, f'{path}/model.pkl')
+path = Path(__file__).parent.parent
+joblib.dump(model, f'{path}/test_res/model.pkl')
