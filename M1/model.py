@@ -2,6 +2,7 @@
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import joblib
+import utils
 
 # Sample Data
 X = np.array([[1], [2], [3]])
@@ -12,5 +13,5 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Save Model
-
-joblib.dump(model, 'model.pkl')
+path = utils.get_project_root()
+joblib.dump(model, f'{path}/model.pkl')
