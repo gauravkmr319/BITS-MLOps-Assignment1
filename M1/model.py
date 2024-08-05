@@ -14,4 +14,5 @@ model.fit(X, y)
 
 # Save Model
 path = Path(__file__).parent.parent
+print(f'{path}/test_res/model.pkl')
 joblib.dump(model, f'{path}/test_res/model.pkl')
