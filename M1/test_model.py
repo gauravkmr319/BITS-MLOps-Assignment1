@@ -3,9 +3,10 @@ import joblib
 import numpy as np
 import pytest
 
-import utils
+from M1 import utils
 
 path = utils.get_project_root()
+print(path)
 model = joblib.load(f'{path}/model.pkl')
 
 def test_model():
