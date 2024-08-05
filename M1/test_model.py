@@ -7,7 +7,7 @@ import pytest
 model = joblib.load('model.pkl')
 
 def test_model():
-    assert 4 == 4
+    print("pass")
 
 if __name__ == "__main__":
     test_model()
