@@ -1,14 +1,14 @@
 # test_model.py
-# from pathlib import Path
-# import os
+from pathlib import Path
+import os
 import joblib
 import numpy as np
 import pytest
 
-PATH = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
+path = Path(os.path.dirname(os.path.realpath(__file__)))
 print("here")
-print(PATH)
-model = joblib.load(f'{PATH}/test_res/model.pkl')
+print(path)
+model = joblib.load(f'{path}\\model.pkl')
 
 
 def test_model():
