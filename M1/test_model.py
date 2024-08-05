@@ -5,7 +5,7 @@ import joblib
 import numpy as np
 import pytest
 
-path = f'/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
+path = '/home/runner/work/BITS-MLOps-Assignment1/BITS-MLOps-Assignment1'
 print("here")
 print(path)
 model = joblib.load(f'{path}/test_res/model.pkl')
