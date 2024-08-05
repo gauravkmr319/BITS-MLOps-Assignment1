@@ -1,10 +1,11 @@
 # test_model.py
 from pathlib import Path
+import os
 import joblib
 import numpy as np
 import pytest
 
-path = Path(__file__).parent.parent
+path = Path(os.path.dirname(os.path.realpath(__file__)))
 print(path)
 model = joblib.load(f'{path}/test_res/model.pkl')
 

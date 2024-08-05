@@ -1,4 +1,5 @@
 # model.py
+import os
 from pathlib import Path
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -13,6 +14,6 @@ model = LinearRegression()
 model.fit(X, y)
 
 # Save Model
-path = Path(__file__).parent.parent
+path = Path(os.path.dirname(os.path.realpath(__file__)))
 print(f'{path}/test_res/model.pkl')
 joblib.dump(model, f'{path}/test_res/model.pkl')
